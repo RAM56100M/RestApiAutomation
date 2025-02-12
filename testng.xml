@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="REST Assured Test Suite">
+    <!-- Define the tests to be run -->
+    <test name="API Tests">
+        <classes>
+            <!-- Add your test classes here -->
+            <class name="api.SimpleGetRequestTest"/>
+            <class name="api.testGETRequest"/>
+        </classes>
+    </test>
+
+    <!-- You can add more tests here if needed -->
+    <!-- <test name="Another Test Set">
+        <classes>
+            <class name="com.yourcompany.AnotherTest"/>
+        </classes>
+    </test> -->
+</suite>
